@@ -16,9 +16,9 @@ def three_way_split(X):
     train, val = train_test_split(train)
     return train, test, val
 
-def add_to_df(X, lst, name):
+def add_col(X, lst, name):
     '''
-    Add a list to a dataframe with a given column name. Input dataframe, list, name
+    Add a list to a column as dataframe. Input dataframe, list, name
     '''
     X[name] = lst
     return X
