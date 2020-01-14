@@ -18,4 +18,3 @@ class Thing:
 #sample df
 ones = pd.DataFrame(np.ones(10))
 zeros = pd.DataFrame(np.zeros(50))
-
