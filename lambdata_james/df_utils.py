@@ -5,7 +5,18 @@ utility functions for working with DataFrames
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-TEST_DF = pd.DataFrame([1,2,3])
+
+class Thing:
+    '''
+    Representation of a thing with a name and action
+    '''
+    def __init__(self, name, action):
+        self.name = name
+        self.action = action
+    
+    def about_thing(self):
+        print(f'This thing is a {self.name}, it can {self.action}')
+
 
 #find and return nulls
 def three_way_split(X):
