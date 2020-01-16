@@ -3,7 +3,9 @@ A collection of data science helper functions
 
 ## Features
 Easily add a new column to a dataframe
+
 Quickly split dataframes into train, val, and test sets
+
 Create new objects using the Thing class
 
 ## Dependencies
