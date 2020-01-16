@@ -13,3 +13,6 @@ Scikit-learn
 
 ## How to install 
 ``` pip install -i https://test.pypi.org/simple/ lambdata-jamesluttringer2019 ```
+
+## License
+[MIT]("https://github.com/jamesluttringer2019/lambdata_jamesluttringer2019/blob/master/LICENSE")
