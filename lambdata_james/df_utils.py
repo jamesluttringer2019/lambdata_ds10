@@ -23,6 +23,8 @@ def three_way_split(X):
     '''
     Perform train, test, val split on input dataframe
     '''
+    if not isinstance(X, pd.DataFrame):
+        raise TypeError("Input must be of type pd.DataFrame")
     train, test = train_test_split(X)
     train, val = train_test_split(train)
     return train, test, val
